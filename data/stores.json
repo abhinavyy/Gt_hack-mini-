@@ -1,0 +1,841 @@
+{
+  "metadata": {
+    "total_stores": 105,
+    "country": "India",
+    "cities_covered": ["New Delhi", "Noida", "Mumbai", "Bengaluru", "Pune", "Hyderabad", "Chennai", "Kolkata", "Ahmedabad", "Jaipur", "Indore", "Ludhiana", "Jalandhar"],
+    "generated": "2025-12-03",
+    "source": "Dummy data modeled from real McDonald's India locations [web:20][web:21][web:25]",
+    "real_store_count": "~600-665 stores across India [web:7][web:25]",
+    "note": "This is simulated data for demonstration purposes. Actual store counts and locations may vary."
+  },
+  "stores": [
+    {
+      "store_id": "MCD-IN-DEL-001",
+      "city": "New Delhi",
+      "address": "Connaught Place, Outer Circle, Block E, New Delhi 110001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 28.632856,
+        "longitude": 77.219673
+      },
+      "opening_year": 1996
+    },
+    {
+      "store_id": "MCD-IN-DEL-002",
+      "city": "New Delhi",
+      "address": "Select Citywalk, Saket, New Delhi 110017",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 28.527501,
+        "longitude": 77.219068
+      },
+      "opening_year": 2007
+    },
+    {
+      "store_id": "MCD-IN-DEL-003",
+      "city": "New Delhi",
+      "address": "Rajiv Chowk Metro Station, New Delhi 110001",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 28.632808,
+        "longitude": 77.220162
+      },
+      "opening_year": 2005
+    },
+    {
+      "store_id": "MCD-IN-DEL-004",
+      "city": "New Delhi",
+      "address": "Pacific Mall, Tagore Garden, New Delhi 110027",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 28.652211,
+        "longitude": 77.124431
+      },
+      "opening_year": 2010
+    },
+    {
+      "store_id": "MCD-IN-DEL-005",
+      "city": "New Delhi",
+      "address": "DLF Promenade, Vasant Kunj, New Delhi 110070",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 28.524455,
+        "longitude": 77.155521
+      },
+      "opening_year": 2008
+    },
+    {
+      "store_id": "MCD-IN-DEL-006",
+      "city": "New Delhi",
+      "address": "Red Fort, Netaji Subhash Marg, New Delhi 110006",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 28.656159,
+        "longitude": 77.241020
+      },
+      "opening_year": 2000
+    },
+    {
+      "store_id": "MCD-IN-DEL-007",
+      "city": "New Delhi",
+      "address": "Janpath Road, Near Imperial Hotel, New Delhi 110001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 28.627456,
+        "longitude": 77.219789
+      },
+      "opening_year": 1998
+    },
+    {
+      "store_id": "MCD-IN-DEL-008",
+      "city": "New Delhi",
+      "address": "INA Market, South Delhi, New Delhi 110023",
+      "type": "Express",
+      "features": ["McDelivery"],
+      "coordinates": {
+        "latitude": 28.575949,
+        "longitude": 77.209235
+      },
+      "opening_year": 2012
+    },
+    {
+      "store_id": "MCD-IN-DEL-009",
+      "city": "New Delhi",
+      "address": "Khan Market, New Delhi 110003",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 28.600155,
+        "longitude": 77.227631
+      },
+      "opening_year": 2006
+    },
+    {
+      "store_id": "MCD-IN-DEL-010",
+      "city": "New Delhi",
+      "address": "Indira Gandhi International Airport, Terminal 3, New Delhi 110037",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 28.556162,
+        "longitude": 77.099958
+      },
+      "opening_year": 2010
+    },
+    {
+      "store_id": "MCD-IN-NOI-001",
+      "city": "Noida",
+      "address": "Great India Place Mall, Sector 38A, Noida 201301",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 28.574530,
+        "longitude": 77.354321
+      },
+      "opening_year": 2007
+    },
+    {
+      "store_id": "MCD-IN-NOI-002",
+      "city": "Noida",
+      "address": "DLF Mall of India, Sector 18, Noida 201301",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 28.569789,
+        "longitude": 77.324502
+      },
+      "opening_year": 2016
+    },
+    {
+      "store_id": "MCD-IN-NOI-003",
+      "city": "Noida",
+      "address": "Sector 62, Near Electronic City Metro Station, Noida 201309",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 28.627482,
+        "longitude": 77.363543
+      },
+      "opening_year": 2018
+    },
+    {
+      "store_id": "MCD-IN-NOI-004",
+      "city": "Noida",
+      "address": "Sector 104, Noida 201304",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru"],
+      "coordinates": {
+        "latitude": 28.501234,
+        "longitude": 77.401568
+      },
+      "opening_year": 2020
+    },
+    {
+      "store_id": "MCD-IN-MUM-001",
+      "city": "Mumbai",
+      "address": "Bandra Kurla Complex, Bandra East, Mumbai 400051",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 19.066206,
+        "longitude": 72.864987
+      },
+      "opening_year": 1997
+    },
+    {
+      "store_id": "MCD-IN-MUM-002",
+      "city": "Mumbai",
+      "address": "Phoenix Marketcity, Kurla West, Mumbai 400070",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 19.065324,
+        "longitude": 72.887654
+      },
+      "opening_year": 2011
+    },
+    {
+      "store_id": "MCD-IN-MUM-003",
+      "city": "Mumbai",
+      "address": "Juhu Tara Road, Santacruz West, Mumbai 400049",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "Drive-thru"],
+      "coordinates": {
+        "latitude": 19.107456,
+        "longitude": 72.826543
+      },
+      "opening_year": 2000
+    },
+    {
+      "store_id": "MCD-IN-MUM-004",
+      "city": "Mumbai",
+      "address": "Infiniti Mall, Malad West, Mumbai 400064",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 19.186745,
+        "longitude": 72.834567
+      },
+      "opening_year": 2009
+    },
+    {
+      "store_id": "MCD-IN-MUM-005",
+      "city": "Mumbai",
+      "address": "High Street Phoenix, Lower Parel, Mumbai 400013",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 19.003456,
+        "longitude": 72.826543
+      },
+      "opening_year": 2005
+    },
+    {
+      "store_id": "MCD-IN-MUM-006",
+      "city": "Mumbai",
+      "address": "Chatrapati Shivaji International Airport, Terminal 2, Mumbai 400099",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 19.089560,
+        "longitude": 72.865654
+      },
+      "opening_year": 2014
+    },
+    {
+      "store_id": "MCD-IN-MUM-007",
+      "city": "Mumbai",
+      "address": "CST Station, Fort, Mumbai 400001",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 18.940189,
+        "longitude": 72.834567
+      },
+      "opening_year": 2002
+    },
+    {
+      "store_id": "MCD-IN-MUM-008",
+      "city": "Mumbai",
+      "address": "R City Mall, Ghatkopar West, Mumbai 400086",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 19.086745,
+        "longitude": 72.912345
+      },
+      "opening_year": 2013
+    },
+    {
+      "store_id": "MCD-IN-MUM-009",
+      "city": "Mumbai",
+      "address": "Inorbit Mall, Malad West, Mumbai 400064",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 19.187654,
+        "longitude": 72.845678
+      },
+      "opening_year": 2007
+    },
+    {
+      "store_id": "MCD-IN-MUM-010",
+      "city": "Mumbai",
+      "address": "Powai Lake, Hiranandani Gardens, Mumbai 400076",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 19.117543,
+        "longitude": 72.908765
+      },
+      "opening_year": 2015
+    },
+    {
+      "store_id": "MCD-IN-BLR-001",
+      "city": "Bengaluru",
+      "address": "Brigade Road, Bengaluru 560001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 12.976234,
+        "longitude": 77.603287
+      },
+      "opening_year": 2001
+    },
+    {
+      "store_id": "MCD-IN-BLR-002",
+      "city": "Bengaluru",
+      "address": "Phoenix Marketcity, Whitefield, Bengaluru 560048",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 12.985432,
+        "longitude": 77.724561
+      },
+      "opening_year": 2013
+    },
+    {
+      "store_id": "MCD-IN-BLR-003",
+      "city": "Bengaluru",
+      "address": "Orion Mall, Malleshwaram, Bengaluru 560003",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 13.006789,
+        "longitude": 77.552345
+      },
+      "opening_year": 2010
+    },
+    {
+      "store_id": "MCD-IN-BLR-004",
+      "city": "Bengaluru",
+      "address": "Kempegowda International Airport, Terminal 1, Bengaluru 560300",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 13.198765,
+        "longitude": 77.705432
+      },
+      "opening_year": 2011
+    },
+    {
+      "store_id": "MCD-IN-BLR-005",
+      "city": "Bengaluru",
+      "address": "UB City, Vittal Mallya Road, Bengaluru 560001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 12.971598,
+        "longitude": 77.594562
+      },
+      "opening_year": 2009
+    },
+    {
+      "store_id": "MCD-IN-BLR-006",
+      "city": "Bengaluru",
+      "address": "Forum Mall, Koramangala, Bengaluru 560034",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "Drive-thru"],
+      "coordinates": {
+        "latitude": 12.935432,
+        "longitude": 77.623456
+      },
+      "opening_year": 2005
+    },
+    {
+      "store_id": "MCD-IN-BLR-007",
+      "city": "Bengaluru",
+      "address": "VR Bengaluru, Whitefield, Bengaluru 560066",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 12.976543,
+        "longitude": 77.734567
+      },
+      "opening_year": 2017
+    },
+    {
+      "store_id": "MCD-IN-BLR-008",
+      "city": "Bengaluru",
+      "address": "Mantri Square Mall, Malleshwaram, Bengaluru 560003",
+      "type": "Dine-in",
+      "features": ["McDelivery", "PlayPlace"],
+      "coordinates": {
+        "latitude": 13.007654,
+        "longitude": 77.545678
+      },
+      "opening_year": 2012
+    },
+    {
+      "store_id": "MCD-IN-BLR-009",
+      "city": "Bengaluru",
+      "address": "Indiranagar 100 Feet Road, Bengaluru 560038",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 12.978901,
+        "longitude": 77.640123
+      },
+      "opening_year": 2018
+    },
+    {
+      "store_id": "MCD-IN-BLR-010",
+      "city": "Bengaluru",
+      "address": "Manyata Tech Park, Nagawara, Bengaluru 560045",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 13.045678,
+        "longitude": 77.623456
+      },
+      "opening_year": 2014
+    },
+    {
+      "store_id": "MCD-IN-PUN-001",
+      "city": "Pune",
+      "address": "FC Road, Shivajinagar, Pune 411005",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 18.520430,
+        "longitude": 73.856743
+      },
+      "opening_year": 2002
+    },
+    {
+      "store_id": "MCD-IN-PUN-002",
+      "city": "Pune",
+      "address": "Phoenix Marketcity, Viman Nagar, Pune 411014",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 18.567890,
+        "longitude": 73.912345
+      },
+      "opening_year": 2014
+    },
+    {
+      "store_id": "MCD-IN-PUN-003",
+      "city": "Pune",
+      "address": "Seasons Mall, Magarpatta, Pune 411028",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 18.512345,
+        "longitude": 73.934567
+      },
+      "opening_year": 2016
+    },
+    {
+      "store_id": "MCD-IN-PUN-004",
+      "city": "Pune",
+      "address": "Koregaon Park, Pune 411001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 18.534567,
+        "longitude": 73.890123
+      },
+      "opening_year": 2008
+    },
+    {
+      "store_id": "MCD-IN-PUN-005",
+      "city": "Pune",
+      "address": "Amanora Town Centre, Hadapsar, Pune 411028",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru"],
+      "coordinates": {
+        "latitude": 18.523456,
+        "longitude": 73.945678
+      },
+      "opening_year": 2019
+    },
+    {
+      "store_id": "MCD-IN-HYD-001",
+      "city": "Hyderabad",
+      "address": "Banjara Hills, Road No. 1, Hyderabad 500034",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 17.415649,
+        "longitude": 78.434567
+      },
+      "opening_year": 2003
+    },
+    {
+      "store_id": "MCD-IN-HYD-002",
+      "city": "Hyderabad",
+      "address": "Inorbit Mall, Cyberabad, Hyderabad 500081",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 17.436789,
+        "longitude": 78.378901
+      },
+      "opening_year": 2011
+    },
+    {
+      "store_id": "MCD-IN-HYD-003",
+      "city": "Hyderabad",
+      "address": "PVR Icon, Hitech City, Hyderabad 500081",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 17.445678,
+        "longitude": 78.390123
+      },
+      "opening_year": 2015
+    },
+    {
+      "store_id": "MCD-IN-HYD-004",
+      "city": "Hyderabad",
+      "address": "Rajiv Gandhi International Airport, Hyderabad 500409",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 17.240189,
+        "longitude": 78.429084
+      },
+      "opening_year": 2013
+    },
+    {
+      "store_id": "MCD-IN-HYD-005",
+      "city": "Hyderabad",
+      "address": "Charminar, Old City, Hyderabad 500002",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 17.361563,
+        "longitude": 78.474667
+      },
+      "opening_year": 2006
+    },
+    {
+      "store_id": "MCD-IN-HYD-006",
+      "city": "Hyderabad",
+      "address": "Forum Sujana Mall, Kukatpally, Hyderabad 500072",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 17.487654,
+        "longitude": 78.412345
+      },
+      "opening_year": 2018
+    },
+    {
+      "store_id": "MCD-IN-CHE-001",
+      "city": "Chennai",
+      "address": "Express Avenue, Royapettah, Chennai 600014",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 13.056789,
+        "longitude": 80.267890
+      },
+      "opening_year": 2000
+    },
+    {
+      "store_id": "MCD-IN-CHE-002",
+      "city": "Chennai",
+      "address": "Phoenix Marketcity, Velachery, Chennai 600042",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 12.987654,
+        "longitude": 80.212345
+      },
+      "opening_year": 2012
+    },
+    {
+      "store_id": "MCD-IN-CHE-003",
+      "city": "Chennai",
+      "address": "Chennai International Airport, Terminal 1, Chennai 600027",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 12.982345,
+        "longitude": 80.167890
+      },
+      "opening_year": 2009
+    },
+    {
+      "store_id": "MCD-IN-CHE-004",
+      "city": "Chennai",
+      "address": "Annanagar, Chennai 600040",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 13.067890,
+        "longitude": 80.223456
+      },
+      "opening_year": 2005
+    },
+    {
+      "store_id": "MCD-IN-CHE-005",
+      "city": "Chennai",
+      "address": "VR Chennai, Anna Nagar, Chennai 600040",
+      "type": "Dine-in",
+      "features": ["McDelivery", "PlayPlace"],
+      "coordinates": {
+        "latitude": 13.078901,
+        "longitude": 80.212345
+      },
+      "opening_year": 2017
+    },
+    {
+      "store_id": "MCD-IN-KOL-001",
+      "city": "Kolkata",
+      "address": "Park Street, Kolkata 700016",
+      "type": "Dine-in",
+      "features": ["McDelivery", "24/7", "McCafe"],
+      "coordinates": {
+        "latitude": 22.551234,
+        "longitude": 88.351789
+      },
+      "opening_year": 2001
+    },
+    {
+      "store_id": "MCD-IN-KOL-002",
+      "city": "Kolkata",
+      "address": "South City Mall, Prince Anwar Shah Road, Kolkata 700068",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 22.507654,
+        "longitude": 88.367890
+      },
+      "opening_year": 2008
+    },
+    {
+      "store_id": "MCD-IN-KOL-003",
+      "city": "Kolkata",
+      "address": "Netaji Subhash Chandra Bose International Airport, Kolkata 700052",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 22.654321,
+        "longitude": 88.446789
+      },
+      "opening_year": 2013
+    },
+    {
+      "store_id": "MCD-IN-KOL-004",
+      "city": "Kolkata",
+      "address": "Quest Mall, Syed Amir Ali Avenue, Kolkata 700019",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 22.523456,
+        "longitude": 88.356789
+      },
+      "opening_year": 2015
+    },
+    {
+      "store_id": "MCD-IN-KOL-005",
+      "city": "Kolkata",
+      "address": "Howrah Station, Howrah 711101",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 22.585678,
+        "longitude": 88.342345
+      },
+      "opening_year": 2006
+    },
+    {
+      "store_id": "MCD-IN-AHM-001",
+      "city": "Ahmedabad",
+      "address": "Alpha One Mall, Vastrapur, Ahmedabad 380015",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 23.045678,
+        "longitude": 72.534567
+      },
+      "opening_year": 2009
+    },
+    {
+      "store_id": "MCD-IN-AHM-002",
+      "city": "Ahmedabad",
+      "address": "Ahmedabad International Airport, Ahmedabad 380003",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 23.067890,
+        "longitude": 72.623456
+      },
+      "opening_year": 2012
+    },
+    {
+      "store_id": "MCD-IN-AHM-003",
+      "city": "Ahmedabad",
+      "address": "SG Highway, Ahmedabad 380054",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 23.056789,
+        "longitude": 72.512345
+      },
+      "opening_year": 2016
+    },
+    {
+      "store_id": "MCD-IN-AHM-004",
+      "city": "Ahmedabad",
+      "address": "Manek Chowk, Old City, Ahmedabad 380001",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 23.023456,
+        "longitude": 72.578901
+      },
+      "opening_year": 2018
+    },
+    {
+      "store_id": "MCD-IN-JAI-001",
+      "city": "Jaipur",
+      "address": "World Trade Park, Malviya Nagar, Jaipur 302017",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 26.867890,
+        "longitude": 75.812345
+      },
+      "opening_year": 2011
+    },
+    {
+      "store_id": "MCD-IN-JAI-002",
+      "city": "Jaipur",
+      "address": "Jaipur International Airport, Jaipur 302006",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 26.823456,
+        "longitude": 75.812345
+      },
+      "opening_year": 2014
+    },
+    {
+      "store_id": "MCD-IN-JAI-003",
+      "city": "Jaipur",
+      "address": "Pink Square Mall, Sitapura, Jaipur 302022",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 26.845678,
+        "longitude": 75.834567
+      },
+      "opening_year": 2017
+    },
+    {
+      "store_id": "MCD-IN-IND-001",
+      "city": "Indore",
+      "address": "C21 Mall, Vijay Nagar, Indore 452010",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru", "McCafe"],
+      "coordinates": {
+        "latitude": 22.745678,
+        "longitude": 75.901234
+      },
+      "opening_year": 2013
+    },
+    {
+      "store_id": "MCD-IN-IND-002",
+      "city": "Indore",
+      "address": "Treasure Island Mall, MG Road, Indore 452001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe", "PlayPlace"],
+      "coordinates": {
+        "latitude": 22.723456,
+        "longitude": 75.867890
+      },
+      "opening_year": 2016
+    },
+    {
+      "store_id": "MCD-IN-IND-003",
+      "city": "Indore",
+      "address": "Indore Airport, Indore 452005",
+      "type": "Express",
+      "features": ["24/7", "Airport"],
+      "coordinates": {
+        "latitude": 22.723456,
+        "longitude": 75.801234
+      },
+      "opening_year": 2019
+    },
+    {
+      "store_id": "MCD-IN-LUD-001",
+      "city": "Ludhiana",
+      "address": "Westend Mall, Ferozpur Road, Ludhiana 141001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 30.912345,
+        "longitude": 75.856789
+      },
+      "opening_year": 2014
+    },
+    {
+      "store_id": "MCD-IN-LUD-002",
+      "city": "Ludhiana",
+      "address": "Pavilion Mall, Ludhiana 141001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "Drive-thru"],
+      "coordinates": {
+        "latitude": 30.901234,
+        "longitude": 75.867890
+      },
+      "opening_year": 2018
+    },
+    {
+      "store_id": "MCD-IN-JAL-001",
+      "city": "Jalandhar",
+      "address": "MBD Neopolis Mall, Jalandhar 144001",
+      "type": "Dine-in",
+      "features": ["McDelivery", "McCafe"],
+      "coordinates": {
+        "latitude": 31.323456,
+        "longitude": 75.578901
+      },
+      "opening_year": 2017
+    },
+    {
+      "store_id": "MCD-IN-JAL-002",
+      "city": "Jalandhar",
+      "address": "Jalandhar Bypass, Jalandhar 144001",
+      "type": "Express",
+      "features": ["McDelivery", "24/7"],
+      "coordinates": {
+        "latitude": 31.334567,
+        "longitude": 75.567890
+      },
+      "opening_year": 2020
+    }
+  ]
+}

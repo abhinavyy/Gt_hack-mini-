@@ -1,0 +1,38 @@
+{
+  "users": {
+    "user_001": {
+      "last_location": null,
+      "last_store": "MCD-IN-JAL-002",
+      "preferences": [],
+      "previous_queries": [
+        "hi",
+        "hi",
+        "ello"
+      ]
+    },
+    "user_8463": {
+      "last_location": null,
+      "last_store": "MCD-IN-DEL-007",
+      "preferences": [
+        "temperature sensitive"
+      ],
+      "previous_queries": [
+        "hi",
+        "i am feeling cold",
+        "i am in bhopal",
+        "now i am in mumbai"
+      ]
+    },
+    "user_4882": {
+      "last_location": null,
+      "last_store": "MCD-IN-NOI-004",
+      "preferences": [],
+      "previous_queries": [
+        "hi",
+        "What are your opening hours?",
+        "what is the closing time of hhis",
+        "Is it family/kid friendly?"
+      ]
+    }
+  }
+}
