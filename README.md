@@ -1,5 +1,3 @@
----
-
 # 🍟 McDonald's Hyper-Personalized Customer Support Chatbot
 
 ### **RAG + Groq Llama 3.3 + Location-Awareness + User Memory**
